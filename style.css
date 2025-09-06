@@ -1,0 +1,116 @@
+*{
+    background-image: url("https://images.pexels.com/photos/68507/spring-flowers-flowers-collage-floral-68507.jpeg");
+}
+section {
+    height: 600px;
+    width: 700px;
+    box-sizing: border-box;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 400px;
+    gap: 10px;
+}
+
+article {
+    height: 180px;
+    width: 180px;
+    border: solid;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.4s ease;
+}
+
+article p {
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+article:hover img {
+    opacity: 0;
+}
+
+article:hover p {
+    opacity: 1;
+}
+
+/* section{
+    height: 600px;
+    width: 700px;
+    box-sizing: border-box;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 80px;
+    left: 400px;
+}
+
+
+img{
+    height: 180px;
+    width: 180px;
+}
+
+article{
+    height: 180px;
+    width: 180px;
+    border: solid;
+}
+
+#rose{
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+#tulip{
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}
+#daisy{
+    position: absolute;
+    top: 120px;
+    left: 540px;
+}
+#sunflower{
+    position: absolute;
+    top: 420px;
+    left: 80px;
+}
+#lily{
+    position: absolute;
+    top: 420px;
+    left: 330px;
+}
+#lotus{
+    position: absolute;
+    top: 420px;
+    left: 540px;
+} */
+
